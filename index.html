@@ -4,47 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Currículo</title>
+    <title>Portifólio DTJ</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Diego Teodoro Januário</h1>
+        <nav>
+            <h1 class="logo">Diego Teodoro Januário</h1>
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <ul class="nav-list">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#experiencias">Experiências</a></li>
+                <li><a href="https://www.linkedin.com/in/diego-janu%C3%A1rio-67276515b/" target="_blank">LikedIn</a></li>
+                <li><a href="https://github.com/diegtj2" target="_blank">GitHub</a></li>
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <a href="#inicio">Início</a>
-        <a href="#habilidades">Habilidades</a>
-        <a href="#experiencias">Experiências</a>
-    </nav>
-    <div class="container-redes">
-        <img src="/imagens/linkedin.png" alt="linkedin">
-        <img src="/imagens/github.png" alt="GitHub">
-        <img src="/imagens/o-email.png" alt="Email">
-        <img src="/imagens/chamada-telefonica.png" alt="Telefone">
-    </div>
-    <section class="inicio" id="inicio">
-        <p>
-            Sou desenvolvedor back-end e atuo no mercado a 3 anos, trabalho atualmente em um grande projeto já consolidado por anos no ramo da saúde no estado de São Paulo.
-        </p>
-    </section>
-    <section class="habilidades" id="habilidades">
-        <img src="/imagens/html-5.png" alt="HTML5">
-        <img src="/imagens/css-3.png" alt="CSS3">
-        <img src="/imagens/js.png" alt="JavaScript">
-        <img src="/imagens/php.png" alt="PHP">
-        <img src="/imagens/servidor-sql.png" alt="SQL Server">
-    </section>
-    <section class="experiencias" id="experiencias">
-        <label for="experiencia1">Analista Programador Jr</label>
-        <p id="experiencia1">
-            Atuo no desenvolvimento de novas funcionalidades lidando com prazos e expectativa do cliente, também realizo melhorias e fixes no sistema.
-        </p>
-        <label for="experiencia2">Estagiário</label>
-        <p id="experiencia2">
-            Atuo no desenvolvimento de novas funcionalidades lidando com prazos e expectativa do cliente, também realizo melhorias e fixes no sistema.
-        </p>
-    </section>
+    <main>
+        <div class="container-redes">
+            
+        </div>
+        <section class="inicio" id="inicio">
+            <p>
+                Sou desenvolvedor back-end e atuo no mercado a 3 anos, trabalho atualmente em um grande projeto já consolidado por anos no ramo da saúde no estado de São Paulo.
+            </p>
+        </section>
+        <!-- <section class="habilidades" id="habilidades">
+            <img src="/imagens/html-5.png" alt="HTML5">
+            <img src="/imagens/css-3.png" alt="CSS3">
+            <img src="/imagens/js.png" alt="JavaScript">
+            <img src="/imagens/php.png" alt="PHP">
+            <img src="/imagens/servidor-sql.png" alt="SQL Server">
+        </section>
+        <section class="experiencias" id="experiencias">
+            <label for="experiencia1">Analista Programador Jr</label>
+            <p id="experiencia1">
+                Atuo no desenvolvimento de novas funcionalidades lidando com prazos e expectativa do cliente, também realizo melhorias e fixes no sistema.
+            </p>
+            <label for="experiencia2">Estagiário</label>
+            <p id="experiencia2">
+                Atuo no desenvolvimento de novas funcionalidades lidando com prazos e expectativa do cliente, também realizo melhorias e fixes no sistema.
+            </p>
+        </section> -->
+    </main>
+    <script src="mobile-navbar.js"></script>
     <footer>
-        <p>
+        <p class="logo">
             Site desencolvido por: Diego Teodoro Januário
         </p>
     </footer>
