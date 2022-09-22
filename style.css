@@ -19,6 +19,18 @@
     letter-spacing: 4px;
     color: #fff;
   }
+
+  p{
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    color: #fff;
+  }
+  
+  .container p{
+    padding: 300px;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
   
   nav {
     display: flex;
@@ -30,7 +42,7 @@
   }
   
   main {
-    background: url("bg.jpg") no-repeat center center;
+    background: #777796;
     background-size: cover;
     height: 92vh;
   }
